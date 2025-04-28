@@ -1,1 +1,4 @@
 <p>hydrate works!</p>
+@for (character of characters; track $character.id) {
+    <app-character [character]="character"></app-character>
+}
