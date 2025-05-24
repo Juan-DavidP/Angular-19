@@ -1,3 +1,6 @@
 @defer (on idle; hydrate on interaction) {
-  <app-hydrate />
+<app-hydrate />
 }
+
+@let greeting = "hola" + greetingTs;
+<p> {{greeting}} </p>
